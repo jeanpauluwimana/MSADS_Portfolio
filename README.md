@@ -18,7 +18,7 @@ The above was achieved through courses such as Data Administration Concepts and 
 3. [JeanPaul_Uwimana_Portfolio_Milestone.pdf](https://github.com/jeanpauluwimana/MSADS_Portfolio/tree/main/JeanPaul_Uwimana_Portfolio_Milestone.pdf)
   - Portfolio Milestone Report
 4. Highlighted Course Projects and Assignments
-  * [IST 659: Data Administration Concepts and Database Management](https://github.com/jeanpauluwimana/MSADS_Portfolio/tree/main/IST659_DataAdministrationConcepts&DBMgmt)
+  * [IST 659: Data Administration Concepts and Database Management](https://github.com/jeanpauluwimana/MSADS_Portfolio/tree/main/IST659_Database_Administration)
   * [IST 719: Information Visualization](https://github.com/jeanpauluwimana/MSADS_Portfolio/tree/main/IST719_Information_Visualization)
   * [IST 772: Quantitative Reasoning](https://github.com/jeanpauluwimana/MSADS_Portfolio/tree/main/IST772_Quantitative_Reasoning)
   * [IST 707: Data Analytics](https://github.com/jeanpauluwimana/MSADS_Portfolio/tree/main/IST707_Data_Analytics)
