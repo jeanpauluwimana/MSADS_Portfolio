@@ -1,4 +1,3 @@
-# MSADS_Portfolio
 # Syracuse University
 ## School of Information Studies
 ## MS in Applied Data Science
