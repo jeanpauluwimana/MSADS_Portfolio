@@ -17,15 +17,13 @@ library(ggplot2)
 library(randomForest)
 
 # Reading in the data
-# heart <- read.csv("C:/Users/m316615/Documents/Personal-Temporary/IST-707/heart.csv")
 heart <- read.csv(file.choose())
 head(heart)
 
 # Renaming age column
 colnames(heart)[1] <- c("age")
 # Variable importance
-# importance <- FSelector::gain.ratio(target ~., data = heart) 
-importance <- FSelector::gain.ratio(target ~., data = heart_data) 
+importance <- FSelector::gain.ratio(target ~., data = heart) 
 
 # Pre-processing and removing non important variables
 heart_data <- select(heart, c("cp", "thalach", "exang", "oldpeak", "slope", "ca", "thal", "target"))
@@ -38,8 +36,7 @@ heart_data$ca <- as.factor(heart_data$ca)
 heart_data$thal <- as.factor(heart_data$thal)
 heart_data$target <- as.factor(heart_data$target)
 
-#source("C:/Users/m316615/Documents/Personal-Temporary/IST-707/shuffle_cut.R")
-source('C:/Users/Jpuwi/Documents/Syracuse_University/Portfolio2021/shuffle_cut.R')
+source('C:/Users/Jpuwi/Documents/Syracuse_University/Portfolio2021/IST707_Data_Analytics/Scripts/shuffle_cut.R')
 heart_train <- shuffle_cut(data = heart_data, subset = "train")
 heart_test <- shuffle_cut(data = heart_data, subset = "test")
 
@@ -84,7 +81,7 @@ J48_heart_model <- caret::train(target ~., data = heart_train, method = "J48",
 time_elapsed <- Sys.time() - now
 print(time_elapsed)
 
-# Predicting heart disease presence/abscence: J48
+# Predicting heart disease presence/absence: J48
 J48_heart_pred <- predict(J48_heart_model, newdata = heart_test, type = "raw")
 confusionMatrix(J48_heart_pred, heart_test$target, mode = "prec_recall")
 
