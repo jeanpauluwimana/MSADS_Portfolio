@@ -24,7 +24,7 @@ The above was achieved through courses such as Data Administration Concepts and 
   * [IST 772: Quantitative Reasoning](https://github.com/jeanpauluwimana/MSADS_Portfolio/tree/main/IST772_Quantitative_Reasoning)
   * [IST 707: Data Analytics](https://github.com/jeanpauluwimana/MSADS_Portfolio/tree/main/IST707_Data_Analytics)
   * [IST 736: Text Mining](https://github.com/jeanpauluwimana/MSADS_Portfolio/tree/main/IST736_Text_Mining)
- 5. [Portfolio Presentation](https://github.com/jeanpauluwimana/MSADS_Portfolio/tree/main/JeanPaul_Uwimana_Portfolio_Presentation.mp4)
+ 5. [Portfolio Presentation](https://bit.ly/3cOOuTv)
   - Portfolio presentation - Video File
  6. [JeanPaul_Uwimana_SlideDeck.pdf](https://github.com/jeanpauluwimana/MSADS_Portfolio/tree/main/JeanPaul_Uwimana_SlideDeck.pdf)
   - Presentation Slide Deck
